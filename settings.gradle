@@ -1,0 +1,3 @@
+rootProject.name = 'kokkok-api'
+include 'kokkok-auth'
+include 'kokkok-core'

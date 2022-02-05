@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'team.avengers'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+project(':kokkok-auth') {
+//    dependencies {
+//        compile project(':kokkok-core')
+//    }
+}
+
+project(':kokkok-core') {
+}
