@@ -1,2 +1,7 @@
 .idea
 .gradle
+
+.gitsecret
+.gitsecret/keys/random_seed
+!*.secret
+kokkok-auth/src/main/resources/credential.yaml
