@@ -11,7 +11,7 @@ CREATE TABLE `user` (
     user_type TINYINT(1) NOT NULL,
     create_date DATETIME NOT NULL,
     modify_date DATETIME NOT NULL,
-    last_login_at DATETIME NOT NULL,
+    last_login_date DATETIME NOT NULL,
     join_date DATETIME,
     leave_date DATETIME
 )
